@@ -42,6 +42,8 @@ This repo is the entry point for fanglin.me. Sub-sites (plotter, algorythm, game
 | 005 | [Verify site and email](../story/005-verify-site-and-email.md) | todo |
 | 006 | [Decommission AWS resources for main site](../story/006-decommission-aws-resources.md) | todo |
 
+| 007 | [Setup semantic release](../story/007-setup-semantic-release.md) | done |
+
 ## Risks & Dependencies
 
 - DNS/NS cutover affects all sub-sites — coordinate with other repos before switching
