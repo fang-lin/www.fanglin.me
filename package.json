@@ -9,8 +9,7 @@
     "build": "cpy index.html build/ -f"
   },
   "engines": {
-    "npm": "9.6.7",
-    "node": "18.17.1"
+    "node": "20.x"
   },
   "repository": {
     "type": "git",
