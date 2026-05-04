@@ -11,8 +11,8 @@ Update fanglin.me nameservers at name.com from AWS Route 53 to Vercel nameserver
 ## Acceptance Criteria
 
 - [x] NS records updated at name.com to point to Vercel (ns1.vercel-dns.com, ns2.vercel-dns.com)
-- [ ] DNS propagation verified (TTL 6h, allow up to 48h)
-- [ ] All sites resolve correctly via new nameservers
+- [x] DNS propagation verified
+- [x] Main site resolves correctly via new nameservers
 
 ## Notes
 

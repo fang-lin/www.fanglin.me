@@ -1,6 +1,6 @@
 # Story-006: Decommission AWS Resources for Main Site
 
-- **Status:** todo
+- **Status:** done
 - **Epic:** [Epic-001](../epic/001-aws-to-vercel-migration.md)
 - **Created:** 2026-05-04
 
@@ -19,9 +19,9 @@ After successful migration verification, delete the AWS resources that served th
 
 ## Acceptance Criteria
 
-- [ ] Both CloudFront distributions disabled and deleted
-- [ ] Both S3 buckets emptied and deleted
-- [ ] No AWS costs from these resources next month
+- [x] Both CloudFront distributions disabled and deleted (E1CN3NIPJAF6TQ, E1UAQPR8AR7TBM)
+- [x] Both S3 buckets emptied and deleted (fanglin.me, www.fanglin.me)
+- [ ] No AWS costs from these resources next month (待下月账单确认)
 
 ## Notes
 
