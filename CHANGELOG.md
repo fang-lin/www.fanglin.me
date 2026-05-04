@@ -1,3 +1,17 @@
+# [1.3.0](https://github.com/fang-lin/www.fanglin.me/compare/v1.2.0...v1.3.0) (2026-05-04)
+
+
+### Bug Fixes
+
+* reorder pipeline to lint → release → deploy ([7e4b30d](https://github.com/fang-lin/www.fanglin.me/commit/7e4b30d6e2df49ab0b64d53b677a97857fd92a86))
+* simplify page title, update prettierignore ([e4a1903](https://github.com/fang-lin/www.fanglin.me/commit/e4a1903532d198ad28100cfe59779403db7bbff3))
+
+
+### Features
+
+* comment preview URL on PR after deploy ([41c7eb3](https://github.com/fang-lin/www.fanglin.me/commit/41c7eb34805e0d396aeb3b48c96850e7cdf49aa5))
+* preview versioning and PR comment with version + URL ([0b5e1f3](https://github.com/fang-lin/www.fanglin.me/commit/0b5e1f301503e4c5a1ff608ca8f5e44fd3d98e6c))
+
 # [1.2.0](https://github.com/fang-lin/www.fanglin.me/compare/v1.1.0...v1.2.0) (2026-05-04)
 
 ### Bug Fixes
