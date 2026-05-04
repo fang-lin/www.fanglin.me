@@ -1,28 +1,38 @@
 {
-  "name": "www.fanglin.me",
-  "version": "1.0.0",
-  "private": true,
-  "dependencies": {
-    "cpy-cli": "^5.0.0"
-  },
-  "scripts": {
-    "build": "cpy index.html build/ -f",
-    "prepare": "husky"
-  },
-  "engines": {
-    "node": "20.x"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/fang-lin/www.fanglin.me.git"
-  },
-  "devDependencies": {
-    "@commitlint/cli": "^20.5.3",
-    "@commitlint/config-conventional": "^20.5.3",
-    "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^12.0.6",
-    "husky": "^9.1.7",
-    "semantic-release": "^25.0.3"
-  }
+    "name": "www.fanglin.me",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+        "cpy-cli": "^5.0.0"
+    },
+    "scripts": {
+        "build": "cpy index.html build/ -f",
+        "lint": "eslint .",
+        "prettier": "prettier --write .",
+        "prettier:check": "prettier --check .",
+        "prepare": "husky"
+    },
+    "engines": {
+        "node": "^22"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fang-lin/www.fanglin.me.git"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^20.5.3",
+        "@commitlint/config-conventional": "^20.5.3",
+        "@eslint/js": "^10.0.1",
+        "@semantic-release/changelog": "^6.0.3",
+        "@semantic-release/git": "^10.0.1",
+        "@semantic-release/github": "^12.0.6",
+        "eslint": "^10.3.0",
+        "eslint-config-prettier": "^10.1.8",
+        "eslint-plugin-html": "^8.1.4",
+        "eslint-plugin-prettier": "^5.5.5",
+        "globals": "^17.6.0",
+        "husky": "^9.1.7",
+        "prettier": "^3.8.3",
+        "semantic-release": "^25.0.3"
+    }
 }

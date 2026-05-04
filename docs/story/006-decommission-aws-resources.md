@@ -10,12 +10,12 @@ After successful migration verification, delete the AWS resources that served th
 
 ### Resources to Delete
 
-| Resource | ID / Name |
-|----------|-----------|
-| CloudFront | E1CN3NIPJAF6TQ (fanglin.me) |
+| Resource   | ID / Name                       |
+| ---------- | ------------------------------- |
+| CloudFront | E1CN3NIPJAF6TQ (fanglin.me)     |
 | CloudFront | E1UAQPR8AR7TBM (www.fanglin.me) |
-| S3 Bucket | fanglin.me |
-| S3 Bucket | www.fanglin.me |
+| S3 Bucket  | fanglin.me                      |
+| S3 Bucket  | www.fanglin.me                  |
 
 ## Acceptance Criteria
 

@@ -6,13 +6,13 @@
 
 ## Description
 
-Add semantic-release, commitlint, and husky to align with other repos (function-plotter, game-of-life, leben-in-de).
+Add semantic-release, commitlint, husky, eslint, prettier, and npm audit to align with other repos (function-plotter, game-of-life, leben-in-de).
 
-### Configuration Pattern (from leben-in-de)
-- `.commitlintrc.json` — extends `@commitlint/config-conventional`
-- `.releaserc.json` — conventionalcommits preset, changelog, git, github plugins
-- Husky for pre-commit hooks
-- Branch: `main`
+### Pipeline structure: CI → Release → Deploy
+
+- **CI:** lint, prettier check, npm audit, build
+- **Release:** semantic-release (version bump, changelog, GitHub release)
+- **Deploy:** Vercel production deploy
 
 ## Acceptance Criteria
 
@@ -20,3 +20,7 @@ Add semantic-release, commitlint, and husky to align with other repos (function-
 - [x] commitlint enforcing conventional commits via husky
 - [x] GitHub Actions release job added to pipeline
 - [x] CHANGELOG.md generated on release
+- [x] ESLint configured with prettier integration
+- [x] Prettier configured (shared config from leben-in-de)
+- [x] npm audit in CI pipeline
+- [x] Node.js upgraded to 22

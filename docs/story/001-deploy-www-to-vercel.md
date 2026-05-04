@@ -9,12 +9,14 @@
 Replace the existing GitHub Actions pipeline (Terraform → AWS S3/CloudFront) with a Vercel deployment pipeline.
 
 ### Current State
+
 - Pipeline: `.github/workflows/build-and-deploy.yml`
 - Build: `npm run build` → copies index.html to `build/`
 - Deploy: Terraform applies to AWS (S3 + CloudFront)
 - Secrets: `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`
 
 ### Target State
+
 - Deploy to Vercel via GitHub Actions using `vercel deploy --prod`
 - Secrets: `VERCEL_TOKEN`, `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID`
 

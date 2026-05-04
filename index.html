@@ -1,68 +1,118 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Fira+Mono:wght@400;500;700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <title>Homepage</title>
-    <style type="text/css">
-        #wrapper {
-            display: flex;
-            gap: 0px;
-            flex-wrap: wrap;
-            justify-content: center;
-            max-width: 960px;
-            margin: 0 auto;
-        }
-        #links {
-            text-decoration: none;
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            width: 320px;
-        }
-        img {
-            width: 320px;
-            height: 320px;
-        }
-        a[title] {
-            width: 320px;
-            height: 320px;
-        }
-        #links li {
-            margin: 10px 0;
-        }
-        #links a {
-            font-family: "Fira Sans", sans-serif;
-            font-weight: 700;
-            color: #555;
-            font-size: 32px;
-        }
-        footer {
-            font-family: "Fira Sans", sans-serif;
-            font-size: 12px;
-            text-align: center;
-            margin: 20px 0;
-        }
-        footer a {
-            color: #666;
-        }
-    </style>
-</head>
-<body>
-<div id="wrapper">
-    <ul id="links">
-        <li><a href="https://algorythm.fanglin.me" target="_blank" rel="noopener noreferrer">algoRYTHM</a></li>
-        <li><a href="https://plotter.fanglin.me" target="_blank" rel="noopener noreferrer">Function Plotter</a></li>
-        <li><a href="https://game-of-life.fanglin.me/" target="_blank" rel="noopener noreferrer">Game of Life</a></li>
-    </ul>
-    <img src="https://live.staticflickr.com/65535/53067062404_c6cb710d8d_z.jpg" width="640" height="640" alt="DALLÂ·E 2023-07-23 18.18.00 - steam punk Sky Castle in winter night with a lot of people and airships by Vincent Willem van Gogh"/>
-    <img src="https://live.staticflickr.com/65535/53067372553_528d8c06c9_z.jpg" width="640" height="640" alt="DALLÂ·E 2023-07-23 18.19.48 - algorithm, rhythm, digital art"/>
-    <img src="https://live.staticflickr.com/65535/53066286162_195cdff3a3_z.jpg" width="640" height="640" alt="DALLÂ·E 2023-07-23 18.13.52"/>
-    <img src="https://live.staticflickr.com/65535/53066873386_2de5b7c691_z.jpg" width="640" height="640" alt="DALLÂ·E 2023-07-23 18.17.23 - algorithm, rhythm, digital art"/>
-    <img src="https://live.staticflickr.com/65535/53066873341_edbe247e8e_z.jpg" width="640" height="640" alt="DALLÂ·E 2023-07-23 18.18.11 - big urban in winter with a lot of people and planes by Salvador DaliÌ"/>
-</div>
-<footer><a href="https://github.com/fang-lin" target="_blank">GitHub</a> | <a href="https://www.fanglin.me/">Lin Fang in 2023</a></footer>
-<script async src="https://embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-</body>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Fira+Mono:wght@400;500;700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <title>Homepage</title>
+        <style type="text/css">
+            #wrapper {
+                display: flex;
+                gap: 0px;
+                flex-wrap: wrap;
+                justify-content: center;
+                max-width: 960px;
+                margin: 0 auto;
+            }
+            #links {
+                text-decoration: none;
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                width: 320px;
+            }
+            img {
+                width: 320px;
+                height: 320px;
+            }
+            a[title] {
+                width: 320px;
+                height: 320px;
+            }
+            #links li {
+                margin: 10px 0;
+            }
+            #links a {
+                font-family: 'Fira Sans', sans-serif;
+                font-weight: 700;
+                color: #555;
+                font-size: 32px;
+            }
+            footer {
+                font-family: 'Fira Sans', sans-serif;
+                font-size: 12px;
+                text-align: center;
+                margin: 20px 0;
+            }
+            footer a {
+                color: #666;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <ul id="links">
+                <li>
+                    <a href="https://algorythm.fanglin.me" target="_blank" rel="noopener noreferrer"
+                        >algoRYTHM</a
+                    >
+                </li>
+                <li>
+                    <a href="https://plotter.fanglin.me" target="_blank" rel="noopener noreferrer"
+                        >Function Plotter</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="https://game-of-life.fanglin.me/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Game of Life</a
+                    >
+                </li>
+            </ul>
+            <img
+                src="https://live.staticflickr.com/65535/53067062404_c6cb710d8d_z.jpg"
+                width="640"
+                height="640"
+                alt="DALLÂ·E 2023-07-23 18.18.00 - steam punk Sky Castle in winter night with a lot of people and airships by Vincent Willem van Gogh"
+            />
+            <img
+                src="https://live.staticflickr.com/65535/53067372553_528d8c06c9_z.jpg"
+                width="640"
+                height="640"
+                alt="DALLÂ·E 2023-07-23 18.19.48 - algorithm, rhythm, digital art"
+            />
+            <img
+                src="https://live.staticflickr.com/65535/53066286162_195cdff3a3_z.jpg"
+                width="640"
+                height="640"
+                alt="DALLÂ·E 2023-07-23 18.13.52"
+            />
+            <img
+                src="https://live.staticflickr.com/65535/53066873386_2de5b7c691_z.jpg"
+                width="640"
+                height="640"
+                alt="DALLÂ·E 2023-07-23 18.17.23 - algorithm, rhythm, digital art"
+            />
+            <img
+                src="https://live.staticflickr.com/65535/53066873341_edbe247e8e_z.jpg"
+                width="640"
+                height="640"
+                alt="DALLÂ·E 2023-07-23 18.18.11 - big urban in winter with a lot of people and planes by Salvador DaliÌ"
+            />
+        </div>
+        <footer>
+            <a href="https://github.com/fang-lin" target="_blank">GitHub</a> |
+            <a href="https://www.fanglin.me/">Lin Fang in 2023</a>
+        </footer>
+        <script
+            async
+            src="https://embedr.flickr.com/assets/client-code.js"
+            charset="utf-8"
+        ></script>
+    </body>
 </html>
