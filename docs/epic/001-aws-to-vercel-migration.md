@@ -10,8 +10,6 @@ Migrate the main portal site (www.fanglin.me / fanglin.me) from AWS (S3 + CloudF
 
 ## Background
 
-See [MIGRATION.md](../../MIGRATION.md) for full inventory of AWS resources and migration context.
-
 This repo is the entry point for fanglin.me. Sub-sites (plotter, algorythm, game-of-life, blog) are independent microservices that manage their own deployments.
 
 ### Key Constraints
@@ -37,10 +35,10 @@ This repo is the entry point for fanglin.me. Sub-sites (plotter, algorythm, game
 
 | # | Story | Status |
 |---|-------|--------|
-| 001 | [Deploy www.fanglin.me to Vercel](../story/001-deploy-www-to-vercel.md) | in-progress |
-| 002 | [Configure custom domains on Vercel](../story/002-configure-custom-domains.md) | todo |
-| 003 | [Add email DNS records on Vercel](../story/003-add-email-dns-records.md) | todo |
-| 004 | [Cut over nameservers at name.com](../story/004-cutover-nameservers.md) | todo |
+| 001 | [Deploy www.fanglin.me to Vercel](../story/001-deploy-www-to-vercel.md) | done |
+| 002 | [Configure custom domains on Vercel](../story/002-configure-custom-domains.md) | done |
+| 003 | [Add email DNS records on Vercel](../story/003-add-email-dns-records.md) | done |
+| 004 | [Cut over nameservers at name.com](../story/004-cutover-nameservers.md) | done |
 | 005 | [Verify site and email](../story/005-verify-site-and-email.md) | todo |
 | 006 | [Decommission AWS resources for main site](../story/006-decommission-aws-resources.md) | todo |
 

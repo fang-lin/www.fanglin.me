@@ -46,9 +46,11 @@ When ready to switch fanglin.me nameservers from AWS Route 53 to Vercel.
    # Check NS propagation
    dig NS fanglin.me
 
-   # Check sites
+   # Check main site (本 repo 范围)
    curl -I https://fanglin.me
    curl -I https://www.fanglin.me
+
+   # Check sub-sites (各自 repo 负责验证，这里仅做冒烟测试)
    curl -I https://plotter.fanglin.me
    curl -I https://algorythm.fanglin.me
    curl -I https://game-of-life.fanglin.me

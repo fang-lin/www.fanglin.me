@@ -1,6 +1,6 @@
 # Story-003: Add Email DNS Records on Vercel
 
-- **Status:** todo
+- **Status:** done
 - **Epic:** [Epic-001](../epic/001-aws-to-vercel-migration.md)
 - **Created:** 2026-05-04
 
@@ -18,5 +18,5 @@ Add MX, SPF, and DKIM records on Vercel DNS to preserve 163 email functionality.
 
 ## Acceptance Criteria
 
-- [ ] All three email DNS records created on Vercel
-- [ ] Records verified with `dig` command
+- [x] All three email DNS records created on Vercel
+- [x] Records verified via Vercel API

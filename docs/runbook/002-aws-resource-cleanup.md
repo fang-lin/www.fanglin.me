@@ -26,17 +26,19 @@ aws route53 list-resource-record-sets --hosted-zone-id Z04547053SKLPRTQSXF72
 aws route53 delete-hosted-zone --id Z04547053SKLPRTQSXF72
 ```
 
-### 2. Disable and Delete CloudFront Distributions
+### 2. Disable and Delete CloudFront Distributions (本站点范围)
 
 For each distribution: disable first, wait for status "Deployed", then delete.
 
-| ID | Alias |
-|----|-------|
-| E1CN3NIPJAF6TQ | fanglin.me |
-| E20RCSS5GCVIT9 | plotter.fanglin.me |
-| E2D1KX31FV85Q1 | game-of-life.fanglin.me |
-| E2JLEK4PGP9QBN | algorythm.fanglin.me |
-| E1UAQPR8AR7TBM | www.fanglin.me |
+> **Note:** 子站 CloudFront 由各自 repo 负责清理。
+
+| ID | Alias | 负责 |
+|----|-------|------|
+| E1CN3NIPJAF6TQ | fanglin.me | 本 repo |
+| E1UAQPR8AR7TBM | www.fanglin.me | 本 repo |
+| E20RCSS5GCVIT9 | plotter.fanglin.me | function-plotter repo |
+| E2D1KX31FV85Q1 | game-of-life.fanglin.me | game-of-life repo |
+| E2JLEK4PGP9QBN | algorythm.fanglin.me | algorythm repo |
 
 ```bash
 # For each distribution:
@@ -47,18 +49,20 @@ aws cloudfront update-distribution --id <ID> --if-match <ETag> --distribution-co
 aws cloudfront delete-distribution --id <ID> --if-match <ETag>
 ```
 
-### 3. Empty and Delete S3 Buckets
+### 3. Empty and Delete S3 Buckets (本站点范围)
 
-| Bucket |
-|--------|
-| fanglin.me |
-| www.fanglin.me |
-| plotter.fanglin.me |
-| algorythm.fanglin.me |
-| game-of-life.fanglin.me |
-| blog.fanglin.me |
-| gen-ai-test-file |
-| terraform-state.fanglin.me |
+> **Note:** 子站 S3 由各自 repo 负责清理。
+
+| Bucket | 负责 |
+|--------|------|
+| fanglin.me | 本 repo |
+| www.fanglin.me | 本 repo |
+| plotter.fanglin.me | function-plotter repo |
+| algorythm.fanglin.me | algorythm repo |
+| game-of-life.fanglin.me | game-of-life repo |
+| blog.fanglin.me | blog repo |
+| gen-ai-test-file | 可直接删除 |
+| terraform-state.fanglin.me | 本 repo（先备份） |
 
 ```bash
 # For each bucket:

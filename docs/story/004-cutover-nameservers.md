@@ -1,6 +1,6 @@
 # Story-004: Cut Over Nameservers at name.com
 
-- **Status:** todo
+- **Status:** done
 - **Epic:** [Epic-001](../epic/001-aws-to-vercel-migration.md)
 - **Created:** 2026-05-04
 
@@ -10,8 +10,8 @@ Update fanglin.me nameservers at name.com from AWS Route 53 to Vercel nameserver
 
 ## Acceptance Criteria
 
-- [ ] NS records updated at name.com to point to Vercel
-- [ ] DNS propagation verified (allow up to 48h)
+- [x] NS records updated at name.com to point to Vercel (ns1.vercel-dns.com, ns2.vercel-dns.com)
+- [ ] DNS propagation verified (TTL 6h, allow up to 48h)
 - [ ] All sites resolve correctly via new nameservers
 
 ## Notes
