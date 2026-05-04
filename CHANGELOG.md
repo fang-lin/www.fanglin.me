@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/fang-lin/www.fanglin.me/compare/v1.0.0...v1.1.0) (2026-05-04)
+
+
+### Features
+
+* migrate to Vite as build tool ([c61d772](https://github.com/fang-lin/www.fanglin.me/commit/c61d77221bddcb7a69b74c90ce56f2d64d3832d4))
+
 # 1.0.0 (2026-05-04)
 
 ### Bug Fixes
