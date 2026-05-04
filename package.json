@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "private": true,
     "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
         "lint": "eslint .",
         "prettier": "prettier --write .",
         "prettier:check": "prettier --check .",
@@ -29,6 +32,7 @@
         "globals": "^17.6.0",
         "husky": "^9.1.7",
         "prettier": "^3.8.3",
-        "semantic-release": "^25.0.3"
+        "semantic-release": "^25.0.3",
+        "vite": "^8.0.10"
     }
 }
