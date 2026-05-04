@@ -50,6 +50,17 @@ This repo is the entry point for fanglin.me. Sub-sites (plotter, algorythm, game
 | 009 | [Dynamic footer with year and version](../story/009-dynamic-footer.md) | done |
 | 010 | [Preview versioning for PR deployments](../story/010-preview-versioning.md) | done |
 
+## ADRs
+
+- [ADR-001: Migrate from AWS to Vercel](../adr/001-migrate-from-aws-to-vercel.md)
+- [ADR-002: Preview versioning](../adr/002-preview-versioning.md)
+- [ADR-003: Image hosting — Cloudflare R2](../adr/003-image-hosting-cloudflare-r2.md)
+- [ADR-004: DNS migration to Cloudflare](../adr/004-dns-migration-to-cloudflare.md)
+
+## Spikes
+
+- [Spike-001: Image hosting solution](../spike/001-image-hosting-solution.md)
+
 ## Risks & Dependencies
 
 - DNS/NS cutover affects all sub-sites — coordinate with other repos before switching
