@@ -48,6 +48,7 @@ This repo is the entry point for fanglin.me. Sub-sites (plotter, algorythm, game
 | 007 | [Setup semantic release](../story/007-setup-semantic-release.md) | done |
 | 008 | [Migrate to Vite](../story/008-migrate-to-vite.md) | done |
 | 009 | [Dynamic footer with year and version](../story/009-dynamic-footer.md) | done |
+| 010 | [Preview versioning for PR deployments](../story/010-preview-versioning.md) | in-progress |
 
 ## Risks & Dependencies
 

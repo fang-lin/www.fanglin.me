@@ -1,15 +1,13 @@
 # [1.2.0](https://github.com/fang-lin/www.fanglin.me/compare/v1.1.0...v1.2.0) (2026-05-04)
 
-
 ### Bug Fixes
 
-* remove v prefix from version display in footer ([1e5f5ee](https://github.com/fang-lin/www.fanglin.me/commit/1e5f5ee00fd409798198b1d98f5b26c8bcf4edd2))
-* repair broken UTF-8 encoding and add SEO meta tags ([ef2bf55](https://github.com/fang-lin/www.fanglin.me/commit/ef2bf5587fd41b04aba318d127452c8c18eb2cac))
-
+- remove v prefix from version display in footer ([1e5f5ee](https://github.com/fang-lin/www.fanglin.me/commit/1e5f5ee00fd409798198b1d98f5b26c8bcf4edd2))
+- repair broken UTF-8 encoding and add SEO meta tags ([ef2bf55](https://github.com/fang-lin/www.fanglin.me/commit/ef2bf5587fd41b04aba318d127452c8c18eb2cac))
 
 ### Features
 
-* dynamic footer with auto year and version from package.json ([83eb6ce](https://github.com/fang-lin/www.fanglin.me/commit/83eb6ce6c9eaf9cb60199e788523a2430fc5f1a2))
+- dynamic footer with auto year and version from package.json ([83eb6ce](https://github.com/fang-lin/www.fanglin.me/commit/83eb6ce6c9eaf9cb60199e788523a2430fc5f1a2))
 
 # [1.1.0](https://github.com/fang-lin/www.fanglin.me/compare/v1.0.0...v1.1.0) (2026-05-04)
 
