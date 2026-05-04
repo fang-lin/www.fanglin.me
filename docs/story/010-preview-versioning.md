@@ -1,6 +1,6 @@
 # Story-010: Preview Versioning for PR Deployments
 
-- **Status:** in-progress
+- **Status:** done
 - **Epic:** [Epic-001](../epic/001-aws-to-vercel-migration.md)
 - **Created:** 2026-05-04
 - **ADR:** [ADR-002](../adr/002-preview-versioning.md)
@@ -19,7 +19,7 @@ Generate a SemVer-compliant preview version for PR deployments and display it in
 
 ## Acceptance Criteria
 
-- [ ] vite.config.js supports VITE_APP_VERSION override
-- [ ] Preview builds show version like `1.2.0-pr.1.abc1234` in footer
-- [ ] PR comment includes both version and preview URL
-- [ ] Production builds are unaffected (still use package.json version)
+- [x] vite.config.js supports VITE_APP_VERSION override
+- [x] Preview builds show version like `1.2.0-pr.1.abc1234` in footer
+- [x] PR comment includes both version and preview URL
+- [x] Production builds are unaffected (still use package.json version)
