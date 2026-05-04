@@ -36,14 +36,14 @@ This repo is the entry point for fanglin.me. Sub-sites (plotter, algorythm, game
 
 ## Stories
 
-| #   | Story                                                                                  | Status |
-| --- | -------------------------------------------------------------------------------------- | ------ |
-| 001 | [Deploy www.fanglin.me to Vercel](../story/001-deploy-www-to-vercel.md)                | done   |
-| 002 | [Configure custom domains on Vercel](../story/002-configure-custom-domains.md)         | done   |
-| 003 | [Add email DNS records on Vercel](../story/003-add-email-dns-records.md)               | done   |
-| 004 | [Cut over nameservers at name.com](../story/004-cutover-nameservers.md)                | done   |
+| #   | Story                                                                                  | Status  |
+| --- | -------------------------------------------------------------------------------------- | ------- |
+| 001 | [Deploy www.fanglin.me to Vercel](../story/001-deploy-www-to-vercel.md)                | done    |
+| 002 | [Configure custom domains on Vercel](../story/002-configure-custom-domains.md)         | done    |
+| 003 | [Add email DNS records on Vercel](../story/003-add-email-dns-records.md)               | done    |
+| 004 | [Cut over nameservers at name.com](../story/004-cutover-nameservers.md)                | done    |
 | 005 | [Verify site and email](../story/005-verify-site-and-email.md)                         | blocked |
-| 006 | [Decommission AWS resources for main site](../story/006-decommission-aws-resources.md) | done |
+| 006 | [Decommission AWS resources for main site](../story/006-decommission-aws-resources.md) | done    |
 
 | 007 | [Setup semantic release](../story/007-setup-semantic-release.md) | done |
 
